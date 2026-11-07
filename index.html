@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#171a16" />
+    <meta
+      name="description"
+      content="Portfólio de Caio Cristian, desenvolvedor front-end. Conheça projetos, experiência e trajetória em tecnologia."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="pt_BR" />
+    <meta property="og:title" content="Caio Cristian — Desenvolvedor Front-End" />
+    <meta
+      property="og:description"
+      content="Interfaces cuidadosas, código bem pensado e projetos construídos para pessoas."
+    />
+    <meta property="og:image" content="/og-image.svg" />
+    <meta name="color-scheme" content="dark light" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <title>Caio Cristian — Desenvolvedor Front-End</title>
+  </head>
+  <body>
+    <script>
+      try {
+        const theme = localStorage.getItem('portfolio-theme')
+        if (theme === 'light' || theme === 'dark') {
+          document.documentElement.dataset.theme = theme
+          document.documentElement.style.colorScheme = theme
+        }
+      } catch {
+        // The default dark theme remains available when storage is disabled.
+      }
+    </script>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

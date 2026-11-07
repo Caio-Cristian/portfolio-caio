@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#171a16"/>
+  <circle cx="1000" cy="102" r="250" fill="#22291f"/>
+  <path d="M0 500h1200" stroke="#42473c"/>
+  <text x="88" y="185" fill="#d0ed8a" font-family="Arial, sans-serif" font-size="21" letter-spacing="5">PORTFÓLIO · 2026</text>
+  <text x="82" y="326" fill="#f3f0e8" font-family="Georgia, serif" font-size="104">Caio Cristian</text>
+  <text x="90" y="405" fill="#aaa99f" font-family="Arial, sans-serif" font-size="32">Desenvolvedor Front-End</text>
+  <text x="90" y="558" fill="#d0ed8a" font-family="Arial, sans-serif" font-size="18">INTERFACES COM INTENÇÃO. CÓDIGO COM CUIDADO.</text>
+</svg>
